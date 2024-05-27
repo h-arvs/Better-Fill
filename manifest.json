@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"h_arvs"
+		]
+	},
+	"header": {
+		"name": "Better fill",
+		"description": "A set of commands (ish) that are an improvement over the current implementation of fill commands.",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "149f1bb3-c3eb-428f-bfd2-e997d410ad23",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "a0015251-57a4-4850-8d69-3f392273a99a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "c5df11b6-75f6-4374-a79f-2bd816347880",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
